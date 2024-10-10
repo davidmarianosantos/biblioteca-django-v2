@@ -12,6 +12,6 @@ urlpatterns = [
     path('autores/<int:pk>/', views.AutorDetail.as_view(), name='autor-detail'),
 
     #Categoria
-    path('livros/', views.CategoriaList.as_view(), name='categoria-list'),
-    path('livros/<int:pk>/', views.CategoriaDetail.as_view(), name='categoria-detail'),
+    path('categorias/', views.CategoriaList.as_view(), name='categoria-list'),
+    path('categorias/<int:pk>/', views.CategoriaDetail.as_view(), name='categoria-detail'),
 ]
